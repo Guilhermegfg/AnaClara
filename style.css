@@ -44,6 +44,7 @@ header {
 .title > p {
     width: 60%;
     color: #021b47;
+    font-size: 1.6rem;
 }
 
 .title h2 {
