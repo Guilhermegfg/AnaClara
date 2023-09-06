@@ -138,8 +138,9 @@ footer a {
     width: 20rem;
     border-radius: 2rem;
     padding: 1rem 3rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
     text-decoration: none;
     color: #021B47 ;
 }
@@ -190,5 +191,11 @@ footer img {
 @media (max-width:500px) {
     :root {
         font-size: 40%;
+    }
+}
+
+@media (max-width:390px) {
+    :root {
+        font-size: 35%;
     }
 }
