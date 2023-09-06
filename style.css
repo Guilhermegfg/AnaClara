@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 body {
      background-color: #f4efef;
 }
 
  header img, 
  main img  {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
 }
 
@@ -20,7 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 30rem;
     font-family: "montserrat", sans-serif;
 }
 
@@ -29,12 +33,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 0.7rem;
 
 }
 
 .title > div {
-    border: solid 3px black;
+    border: solid 0.3rem black;
 }
 
 .title > p {
@@ -43,12 +47,15 @@ header {
 }
 
 .title h2 {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .produtos {
@@ -56,20 +63,20 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
     
 }
 
 .produto {
     width: 55%;
-    height: 231px;
+    height: 23.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border: solid 2px #cb8c7c;
-    padding: 32px;
-    border-radius: 500px;
+    gap: 1rem;
+    border: solid 0.2rem #cb8c7c;
+    padding: 3.2rem;
+    border-radius: 50rem;
 }
 
 .produto img {
@@ -78,124 +85,59 @@ main {
 
 .produto h2 {
     color: #CB8C7C;
-    text-shadow: 1.2374399900436401px 1.2374399900436401px 1.75px rgba(203, 140, 124, 0.40);
     font-family: "Prata", sans-serif;
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 400;
-    line-height: 39px; 
+    line-height: 3.9rem; 
 }
 
 .produto p {
     color: #021B47;
-    text-shadow: 0.7837129831314087px 0.7837129831314087px 1.1083400249481201px rgba(2, 27, 71, 0.40);
     font-family: "Montserrat", sans-serif;
-    font-size: 17.733px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;     
+    line-height: 2.4rem;     
 }
 
 .produto a {
     color: #CB8C7C;
-    text-shadow: 0.7820240259170532px 0.7820240259170532px 1.1059499979019165px rgba(203, 140, 124, 0.40);
     font-family: "Montserrat", sans-serif;
-    font-size: 17.695px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
-}
-
-.feedbacks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-}
-
-.cards {
-    display: flex;
-    height: 500px;
-    gap: 12px;
-    margin-top: 60px;
-}
-
-.card {
-
-}
-
-.card h2 {
-    color: #CB8C7C;
-    text-shadow: 1.82669997215271px 1.82669997215271px 2.5833399295806885px rgba(206, 138, 115, 0.40);
-    font-family: "Prata", sans-serif;
-    font-size: 41.333px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 57px;    
-}
-
-.card p {
-    color: #021B47;
-    text-shadow: 0.883882999420166px 0.883882999420166px 1.25px rgba(2, 27, 71, 0.40);
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-
-    max-width: 605px;
-    height: 300px;
-    
-    background-position: center;
-    padding: 10px;
+    line-height: 2.4rem; 
 }
 
 
-
-.cardLeft p{
-    background-image: url(./assets/balaoleft.svg);
-    background-repeat: no-repeat;
-}
-
-.cardLeft img {
-    margin-left: 25%;
-}
-
-.cardRigth p{
-    background-image: url(./assets/balaorigth.svg);
-}
-
-.cardRigth img {
-    margin-left: 40%;
-}
 
 footer {
-   margin-top: 200px;
+   margin-top: 5rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   gap: 10px;
-   margin-bottom: 32px;
+   gap: 1rem;
+   margin-bottom: 3.2rem;
 }
 
 footer h2 {
     color: #CF8C95;
     text-align: center;
-    text-shadow: 2.062390089035034px 2.062390089035034px 2.9166600704193115px rgba(207, 140, 149, 0.40);
+    text-shadow: 2rem 2rem 3rem rgba(207, 140, 149, 0.40);
     font-family: "Prata", sans-serif;
-    font-size: 46.667px;
+    font-size: 4.6rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 65px;    
+    line-height: 6.5rem;    
 }
 
 footer a {
     display: flex;
     background-color: #f2d3d0;
-    width: 200px;
-    border-radius: 20px;
-    padding: 10px 30px;
+    width: 20rem;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
@@ -203,7 +145,7 @@ footer a {
 }
 
 footer img {
-    width: 25px;
+    width: 2.5rem;
 }
 
 @media (max-width:1200px) {
@@ -211,9 +153,6 @@ footer img {
         width: 70%;
     }
 
-
-
- 
 
 }
 
@@ -223,21 +162,33 @@ footer img {
     }
 
     .produto h2 {
-        font-size: 24px;
+        font-size: 2.4rem;
     }
 
     .produto p {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
     .produto a {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
 }
 
-@media (max-width:800px) {
+@media ( max-width:800px){
     .produto {
         width: 95%;
+    }
+}
+
+@media (max-width:650px) {
+    :root {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:500px) {
+    :root {
+        font-size: 40%;
     }
 }
