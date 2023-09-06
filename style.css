@@ -80,6 +80,10 @@ main {
     border-radius: 50rem;
 }
 
+.produto div {
+    width: 80%;
+}
+
 
 .produto h2 {
     color: #CB8C7C;
@@ -195,5 +199,11 @@ footer img {
 @media (max-width:390px) {
     :root {
         font-size: 35%;
+    }
+}
+
+@media (max-width:350px) {
+    :root {
+        font-size: 30%;
     }
 }
