@@ -213,7 +213,7 @@ footer img {
 }
 
 
-@media (max-width:285px) {
+@media (max-width:300px) {
     :root {
         font-size: 20%;
     }
