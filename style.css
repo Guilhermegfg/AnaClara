@@ -41,7 +41,7 @@ header {
     border: solid 0.3rem #021B47;
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #dd950f;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #021B47;
     margin-bottom: 1rem;
 }
 
@@ -208,12 +208,23 @@ footer img {
 
 @media (max-width:350px) {
     :root {
-        font-size: 15%;
+        font-size: 30%;
+    }
+
+    .imgDesc {
+        width: 15rem;
+        height: 15rem;
     }
 }
 
 
 @media (max-width:300px) {
+    :root {
+        font-size: 25%;
+    }
+}
+
+@media (max-width:240px) {
     :root {
         font-size: 20%;
     }
