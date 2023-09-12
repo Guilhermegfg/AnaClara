@@ -41,7 +41,7 @@ header {
     border: solid 0.3rem #021B47;
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #021b47;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #7f8fac;
     margin-bottom: 1rem;
 }
 
@@ -222,5 +222,21 @@ footer img {
 @media (max-width:240px) {
     :root {
         font-size: 20%;
+    }
+}
+
+@media (max-width:200px) {
+    :root {
+        font-size: 15%;
+    }
+}
+
+@media (max-width:150px) {
+    :root {
+        font-size: 10%;
+    }
+
+    footer a {
+        width: 30rem;
     }
 }
