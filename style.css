@@ -207,3 +207,16 @@ footer img {
         font-size: 30%;
     }
 }
+
+
+@media (max-width:285px) {
+    :root {
+        font-size: 25%;
+    }
+}
+
+@media (max-width:240px) {
+    :root {
+        font-size: 20%;
+    }
+}
