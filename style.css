@@ -39,6 +39,10 @@ header {
 
 .title > div {
     border: solid 0.3rem black;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #021b47;
+    margin-bottom: 1rem;
 }
 
 .title > p {
