@@ -34,6 +34,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 0.7rem;
+    text-align: center;
 
 }
 
@@ -42,7 +43,8 @@ header {
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #021B47;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .title > p {
@@ -180,6 +182,7 @@ footer img {
         font-size: 1.4rem;
     }
 
+
 }
 
 @media ( max-width:800px){
@@ -198,12 +201,31 @@ footer img {
     :root {
         font-size: 40%;
     }
+
+
+    .produto {
+        width: 95%;
+        padding: 1rem;
+        height: max-content;
+    }
+
+    .imgDesc {
+        width: 15rem;
+        height: 15rem;
+    }
+
 }
 
 @media (max-width:390px) {
     :root {
         font-size: 35%;
     }
+
+
+
+
+
+
 }
 
 @media (max-width:350px) {
@@ -215,6 +237,8 @@ footer img {
         width: 15rem;
         height: 15rem;
     }
+
+
 }
 
 
@@ -222,12 +246,14 @@ footer img {
     :root {
         font-size: 25%;
     }
+
 }
 
 @media (max-width:240px) {
     :root {
         font-size: 20%;
     }
+
 }
 
 
@@ -246,4 +272,5 @@ footer img {
     footer a {
         width: 30rem;
     }
+
 }
